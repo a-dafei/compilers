@@ -1,0 +1,67 @@
+start:$ integer
+start:$ scientific
+start:$ complex
+start:$ limit_symbol
+start:$ operation
+start:$ identifier
+limit_symbol:,
+limit_symbol:;
+limit_symbol:(
+limit_symbol:)
+limit_symbol:[
+limit_symbol:]
+limit_symbol:{
+limit_symbol:}
+operation:+
+operation:-
+operation:*
+operation:/
+operation:%
+operation:^
+operation:&
+operation:=
+operation:>
+operation:<
+operation:> equal
+operation:< equal
+equal:=
+integer:digit
+integer:digit integer_next
+integer_next:digit
+integer_next:digit integer_next
+scientific:digit
+scientific:digit scientific_next
+scientific_next:digit
+scientific_next:digit scientific_next
+scientific_next:. decimal
+decimal:digit
+decimal:digit decimal_next
+decimal_next:digit
+decimal_next:digit decimal_next
+scientific_next:e sign_index
+decimal_next:e sign_index
+sign_index:+ index
+sign_index:- index
+sign_index:digit
+sign_index:digit index_next
+index:digit
+index:digit index_next
+index_next:digit
+index_next:digit index_next
+complex:digit
+complex:digit complex_first_next
+complex_first_next:digit complex_first_next
+complex_first_next:+ complex_second_next
+complex_first_next:- complex_second_next
+complex_second_next:i
+complex_second_next:digit complex_second_next
+identifier:_
+identifier:alphabet
+identifier:_ identifier_next
+identifier:alphabet identifier_next
+identifier_next:_
+identifier_next:_ identifier_next
+identifier_next:digit
+identifier_next:digit identifier_next
+identifier_next:alphabet
+identifier_next:alphabet identifier_next

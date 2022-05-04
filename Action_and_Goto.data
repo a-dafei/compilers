@@ -1,0 +1,332 @@
+[0,function]=S1	[0,A]=G2	[0,DECLARE]=G3	[0,DEFINE]=G4	[0,START]=G5	[0,float]=S6	[0,double]=S7	[0,TYPE]=G8	[0,long]=S9	[0,char]=S10	[0,string]=S11	[0,int]=S12	[0,#]=r2	
+[1,double]=S7	[1,long]=S9	[1,char]=S10	[1,TYPE]=G13	[1,string]=S11	[1,int]=S12	[1,float]=S6	
+[2,function]=S1	[2,A]=G2	[2,START]=G14	[2,DECLARE]=G3	[2,DEFINE]=G4	[2,float]=S6	[2,double]=S7	[2,TYPE]=G8	[2,long]=S9	[2,char]=S10	[2,string]=S11	[2,int]=S12	[2,#]=r2	
+[3,long]=r3	[3,float]=r3	[3,string]=r3	[3,double]=r3	[3,int]=r3	[3,#]=r3	[3,char]=r3	[3,function]=r3	
+[4,long]=r4	[4,float]=r4	[4,string]=r4	[4,double]=r4	[4,int]=r4	[4,#]=r4	[4,char]=r4	[4,function]=r4	
+[5,#]=r0	
+[6,identifier]=r9	
+[7,identifier]=r8	
+[8,DECLARE1]=G15	[8,identifier]=S16	
+[9,identifier]=r11	
+[10,identifier]=r6	
+[11,identifier]=r10	
+[12,identifier]=r7	
+[13,identifier]=S17	
+[14,#]=r1	
+[15,,]=S18	[15,;]=r16	[15,DECLARE2]=G19	
+[16,=]=S20	[16,,]=r14	[16,;]=r14	[16,DECLARE3]=G21	
+[17,(]=S22	
+[18,identifier]=S16	[18,DECLARE1]=G23	
+[19,;]=S24	
+[20,function]=S25	[20,constant]=S26	[20,EXPRESSION]=G27	[20,identifier]=S28	[20,FUNCTIONEXPRESSION]=G29	[20,CONST1]=G30	[20,CONSTEXPRESSION]=G31	[20,(]=S32	
+[21,,]=r12	[21,;]=r12	
+[22,FORPARAMETER1]=G33	[22,)]=r51	[22,float]=S6	[22,double]=S7	[22,string]=S11	[22,TYPE]=G34	[22,long]=S9	[22,char]=S10	[22,FORPARAMETER]=G35	[22,int]=S12	
+[23,,]=S18	[23,;]=r16	[23,DECLARE2]=G36	
+[24,long]=r5	[24,float]=r5	[24,string]=r5	[24,double]=r5	[24,int]=r5	[24,#]=r5	[24,char]=r5	[24,function]=r5	
+[25,identifier]=S37	
+[26,%]=r26	[26,&]=r26	[26,>]=r26	[26,>=]=r26	[26,-]=r26	[26,/]=r26	[26,<=]=r26	[26,<]=r26	[26,^]=r26	[26,,]=r26	[26,;]=r26	[26,+]=r26	[26,*]=r26	
+[27,,]=r13	[27,;]=r13	
+[28,%]=r25	[28,&]=r25	[28,>]=r25	[28,>=]=r25	[28,-]=r25	[28,/]=r25	[28,<=]=r25	[28,<]=r25	[28,^]=r25	[28,,]=r25	[28,;]=r25	[28,+]=r25	[28,*]=r25	
+[29,,]=r18	[29,;]=r18	
+[30,,]=r29	[30,;]=r29	[30,*]=S38	[30,/]=S39	[30,^]=S40	[30,+]=S41	[30,%]=S42	[30,<=]=S43	[30,<]=S44	[30,>]=S45	[30,&]=S46	[30,operation]=G47	[30,-]=S48	[30,>=]=S49	[30,CONST2]=G50	
+[31,,]=r17	[31,;]=r17	
+[32,EXPRESSION]=G51	[32,(]=S52	[32,constant]=S53	[32,FUNCTIONEXPRESSION]=G54	[32,CONSTEXPRESSION]=G55	[32,CONST1]=G56	[32,identifier]=S57	[32,function]=S58	
+[33,)]=r54	[33,,]=S59	[33,FORPARAMETER2]=G60	
+[34,identifier]=S61	
+[35,)]=S62	
+[36,;]=r15	
+[37,(]=S63	
+[38,identifier]=r32	[38,constant]=r32	[38,(]=r32	
+[39,identifier]=r33	[39,constant]=r33	[39,(]=r33	
+[40,identifier]=r35	[40,constant]=r35	[40,(]=r35	
+[41,identifier]=r30	[41,constant]=r30	[41,(]=r30	
+[42,identifier]=r34	[42,constant]=r34	[42,(]=r34	
+[43,identifier]=r39	[43,constant]=r39	[43,(]=r39	
+[44,identifier]=r37	[44,constant]=r37	[44,(]=r37	
+[45,identifier]=r38	[45,constant]=r38	[45,(]=r38	
+[46,identifier]=r36	[46,constant]=r36	[46,(]=r36	
+[47,identifier]=S28	[47,constant]=S26	[47,CONST1]=G64	[47,(]=S32	
+[48,identifier]=r31	[48,constant]=r31	[48,(]=r31	
+[49,identifier]=r40	[49,constant]=r40	[49,(]=r40	
+[50,,]=r24	[50,;]=r24	
+[51,)]=S65	
+[52,(]=S52	[52,constant]=S53	[52,FUNCTIONEXPRESSION]=G54	[52,CONSTEXPRESSION]=G55	[52,CONST1]=G56	[52,identifier]=S57	[52,function]=S58	[52,EXPRESSION]=G66	
+[53,%]=r26	[53,&]=r26	[53,>]=r26	[53,>=]=r26	[53,-]=r26	[53,/]=r26	[53,<=]=r26	[53,<]=r26	[53,^]=r26	[53,)]=r26	[53,+]=r26	[53,*]=r26	
+[54,)]=r18	
+[55,)]=r17	
+[56,*]=S38	[56,operation]=G67	[56,/]=S39	[56,^]=S40	[56,CONST2]=G68	[56,)]=r29	[56,+]=S41	[56,%]=S42	[56,<=]=S43	[56,<]=S44	[56,>]=S45	[56,&]=S46	[56,-]=S48	[56,>=]=S49	
+[57,%]=r25	[57,&]=r25	[57,>]=r25	[57,>=]=r25	[57,-]=r25	[57,/]=r25	[57,<=]=r25	[57,<]=r25	[57,^]=r25	[57,)]=r25	[57,+]=r25	[57,*]=r25	
+[58,identifier]=S69	
+[59,FORPARAMETER1]=G70	[59,float]=S6	[59,double]=S7	[59,TYPE]=G34	[59,long]=S9	[59,char]=S10	[59,string]=S11	[59,int]=S12	
+[60,)]=r50	
+[61,,]=r52	[61,)]=r52	
+[62,BODY]=G71	[62,{]=S72	
+[63,EXPRESS]=G73	[63,CONSTEXPRESSION]=G74	[63,CONST1]=G75	[63,)]=r21	[63,identifier]=S76	[63,function]=S77	[63,(]=S78	[63,EXPRESSION]=G79	[63,FUNCTIONEXPRESSION]=G80	[63,constant]=S81	
+[64,,]=r29	[64,;]=r29	[64,*]=S38	[64,/]=S39	[64,^]=S40	[64,+]=S41	[64,%]=S42	[64,<=]=S43	[64,<]=S44	[64,>]=S45	[64,&]=S46	[64,operation]=G47	[64,-]=S48	[64,>=]=S49	[64,CONST2]=G82	
+[65,%]=r27	[65,&]=r27	[65,>]=r27	[65,>=]=r27	[65,-]=r27	[65,/]=r27	[65,<=]=r27	[65,<]=r27	[65,^]=r27	[65,,]=r27	[65,;]=r27	[65,+]=r27	[65,*]=r27	
+[66,)]=S83	
+[67,(]=S52	[67,constant]=S53	[67,CONST1]=G84	[67,identifier]=S57	
+[68,)]=r24	
+[69,(]=S85	
+[70,FORPARAMETER2]=G86	[70,,]=S59	[70,)]=r54	
+[71,long]=r49	[71,float]=r49	[71,string]=r49	[71,double]=r49	[71,int]=r49	[71,#]=r49	[71,char]=r49	[71,function]=r49	
+[72,;]=r74	[72,{]=S87	[72,XUNHUAN]=G88	[72,}]=r57	[72,float]=S6	[72,DECLARE]=G89	[72,scanf]=S90	[72,double]=S7	[72,TIAOJIAN]=G91	[72,for]=S92	[72,ABOUTEXPRESSION11]=G93	[72,BODY1]=G94	[72,if]=S95	[72,int]=S12	[72,continue]=S96	[72,break]=S97	[72,return]=S98	[72,ABOUTEXPRESSION]=G99	[72,identifier]=S100	[72,JUMP]=G101	[72,ABOUTEXPRESSION1]=G102	[72,MAINBODY]=G103	[72,print]=S104	[72,TYPE]=G105	[72,long]=S9	[72,char]=S10	[72,BODY]=G106	[72,string]=S11	[72,while]=S107	
+[73,)]=S108	
+[74,,]=r17	[74,)]=r17	
+[75,*]=S38	[75,,]=r29	[75,)]=r29	[75,CONST2]=G109	[75,/]=S39	[75,^]=S40	[75,+]=S41	[75,%]=S42	[75,<=]=S43	[75,<]=S44	[75,>]=S45	[75,&]=S46	[75,-]=S48	[75,operation]=G110	[75,>=]=S49	
+[76,%]=r25	[76,&]=r25	[76,>]=r25	[76,>=]=r25	[76,-]=r25	[76,/]=r25	[76,<=]=r25	[76,<]=r25	[76,^]=r25	[76,,]=r25	[76,)]=r25	[76,+]=r25	[76,*]=r25	
+[77,identifier]=S111	
+[78,(]=S52	[78,constant]=S53	[78,FUNCTIONEXPRESSION]=G54	[78,CONSTEXPRESSION]=G55	[78,CONST1]=G56	[78,identifier]=S57	[78,EXPRESSION]=G112	[78,function]=S58	
+[79,)]=r23	[79,EXPRESS1]=G113	[79,,]=S114	
+[80,,]=r18	[80,)]=r18	
+[81,%]=r26	[81,&]=r26	[81,>]=r26	[81,>=]=r26	[81,-]=r26	[81,/]=r26	[81,<=]=r26	[81,<]=r26	[81,^]=r26	[81,,]=r26	[81,)]=r26	[81,+]=r26	[81,*]=r26	
+[82,,]=r28	[82,;]=r28	
+[83,%]=r27	[83,&]=r27	[83,>]=r27	[83,>=]=r27	[83,-]=r27	[83,/]=r27	[83,<=]=r27	[83,<]=r27	[83,^]=r27	[83,)]=r27	[83,+]=r27	[83,*]=r27	
+[84,*]=S38	[84,operation]=G67	[84,/]=S39	[84,CONST2]=G115	[84,^]=S40	[84,)]=r29	[84,+]=S41	[84,%]=S42	[84,<=]=S43	[84,<]=S44	[84,>]=S45	[84,&]=S46	[84,-]=S48	[84,>=]=S49	
+[85,CONSTEXPRESSION]=G74	[85,CONST1]=G75	[85,)]=r21	[85,identifier]=S76	[85,function]=S77	[85,EXPRESS]=G116	[85,(]=S78	[85,EXPRESSION]=G79	[85,FUNCTIONEXPRESSION]=G80	[85,constant]=S81	
+[86,)]=r53	
+[87,;]=r74	[87,{]=S87	[87,MAINBODY]=G117	[87,XUNHUAN]=G88	[87,}]=r57	[87,float]=S6	[87,DECLARE]=G89	[87,scanf]=S90	[87,double]=S7	[87,TIAOJIAN]=G91	[87,for]=S92	[87,ABOUTEXPRESSION11]=G93	[87,BODY1]=G94	[87,if]=S95	[87,int]=S12	[87,continue]=S96	[87,break]=S97	[87,return]=S98	[87,ABOUTEXPRESSION]=G99	[87,identifier]=S100	[87,JUMP]=G101	[87,ABOUTEXPRESSION1]=G102	[87,print]=S104	[87,TYPE]=G105	[87,long]=S9	[87,char]=S10	[87,BODY]=G106	[87,string]=S11	[87,while]=S107	
+[88,long]=r60	[88,string]=r60	[88,break]=r60	[88,while]=r60	[88,return]=r60	[88,{]=r60	[88,continue]=r60	[88,float]=r60	[88,}]=r60	[88,if]=r60	[88,double]=r60	[88,scanf]=r60	[88,int]=r60	[88,for]=r60	[88,print]=r60	[88,;]=r60	[88,identifier]=r60	[88,char]=r60	
+[89,long]=r58	[89,string]=r58	[89,break]=r58	[89,while]=r58	[89,return]=r58	[89,{]=r58	[89,continue]=r58	[89,float]=r58	[89,}]=r58	[89,if]=r58	[89,double]=r58	[89,scanf]=r58	[89,int]=r58	[89,for]=r58	[89,print]=r58	[89,;]=r58	[89,identifier]=r58	[89,char]=r58	
+[90,(]=S118	
+[91,long]=r61	[91,string]=r61	[91,break]=r61	[91,while]=r61	[91,return]=r61	[91,{]=r61	[91,continue]=r61	[91,float]=r61	[91,}]=r61	[91,if]=r61	[91,double]=r61	[91,scanf]=r61	[91,int]=r61	[91,for]=r61	[91,print]=r61	[91,;]=r61	[91,identifier]=r61	[91,char]=r61	
+[92,(]=S119	
+[93,,]=S120	[93,;]=r77	[93,ABOUTEXPRESSION12]=G121	
+[94,;]=r74	[94,{]=S87	[94,XUNHUAN]=G88	[94,}]=r57	[94,float]=S6	[94,DECLARE]=G89	[94,scanf]=S90	[94,double]=S7	[94,TIAOJIAN]=G91	[94,for]=S92	[94,ABOUTEXPRESSION11]=G93	[94,BODY1]=G94	[94,if]=S95	[94,int]=S12	[94,continue]=S96	[94,break]=S97	[94,return]=S98	[94,ABOUTEXPRESSION]=G99	[94,identifier]=S100	[94,JUMP]=G101	[94,ABOUTEXPRESSION1]=G102	[94,MAINBODY]=G122	[94,print]=S104	[94,TYPE]=G105	[94,long]=S9	[94,char]=S10	[94,BODY]=G106	[94,string]=S11	[94,while]=S107	
+[95,(]=S123	
+[96,;]=S124	
+[97,;]=S125	
+[98,(]=S126	[98,FUNCTIONEXPRESSION]=G127	[98,CONST1]=G128	[98,CONSTEXPRESSION]=G129	[98,constant]=S130	[98,function]=S131	[98,EXPRESSION]=G132	[98,identifier]=S133	
+[99,long]=r63	[99,string]=r63	[99,break]=r63	[99,while]=r63	[99,return]=r63	[99,{]=r63	[99,continue]=r63	[99,float]=r63	[99,}]=r63	[99,if]=r63	[99,double]=r63	[99,scanf]=r63	[99,int]=r63	[99,for]=r63	[99,print]=r63	[99,;]=r63	[99,identifier]=r63	[99,char]=r63	
+[100,=]=S134	[100,-]=S135	[100,Operation]=G136	[100,&]=S137	[100,*]=S138	[100,%]=S139	[100,+]=S140	[100,^]=S141	[100,/]=S142	
+[101,long]=r62	[101,string]=r62	[101,break]=r62	[101,while]=r62	[101,return]=r62	[101,{]=r62	[101,continue]=r62	[101,float]=r62	[101,}]=r62	[101,if]=r62	[101,double]=r62	[101,scanf]=r62	[101,int]=r62	[101,for]=r62	[101,print]=r62	[101,;]=r62	[101,identifier]=r62	[101,char]=r62	
+[102,;]=S143	
+[103,}]=S144	
+[104,(]=S145	
+[105,DECLARE1]=G146	[105,identifier]=S16	
+[106,long]=r59	[106,string]=r59	[106,break]=r59	[106,while]=r59	[106,return]=r59	[106,{]=r59	[106,continue]=r59	[106,float]=r59	[106,}]=r59	[106,if]=r59	[106,double]=r59	[106,scanf]=r59	[106,int]=r59	[106,for]=r59	[106,print]=r59	[106,;]=r59	[106,identifier]=r59	[106,char]=r59	
+[107,(]=S147	
+[108,,]=r19	[108,;]=r19	
+[109,,]=r24	[109,)]=r24	
+[110,constant]=S81	[110,CONST1]=G148	[110,(]=S78	[110,identifier]=S76	
+[111,(]=S149	
+[112,)]=S150	
+[113,)]=r20	
+[114,constant]=S151	[114,CONST1]=G152	[114,EXPRESSION]=G153	[114,function]=S154	[114,identifier]=S155	[114,(]=S156	[114,FUNCTIONEXPRESSION]=G157	[114,CONSTEXPRESSION]=G158	
+[115,)]=r28	
+[116,)]=S159	
+[117,}]=S160	
+[118,identifier]=S161	
+[119,TYPE]=G162	[119,float]=S6	[119,double]=S7	[119,DECLARE]=G163	[119,long]=S9	[119,char]=S10	[119,string]=S11	[119,int]=S12	
+[120,identifier]=S100	[120,ABOUTEXPRESSION11]=G164	
+[121,;]=r73	
+[122,}]=r56	
+[123,(]=S52	[123,constant]=S53	[123,FUNCTIONEXPRESSION]=G54	[123,CONSTEXPRESSION]=G55	[123,CONST1]=G56	[123,EXPRESSION]=G165	[123,identifier]=S57	[123,function]=S58	
+[124,long]=r67	[124,string]=r67	[124,break]=r67	[124,while]=r67	[124,return]=r67	[124,{]=r67	[124,continue]=r67	[124,float]=r67	[124,}]=r67	[124,if]=r67	[124,double]=r67	[124,scanf]=r67	[124,int]=r67	[124,for]=r67	[124,print]=r67	[124,;]=r67	[124,identifier]=r67	[124,char]=r67	
+[125,long]=r68	[125,string]=r68	[125,break]=r68	[125,while]=r68	[125,return]=r68	[125,{]=r68	[125,continue]=r68	[125,float]=r68	[125,}]=r68	[125,if]=r68	[125,double]=r68	[125,scanf]=r68	[125,int]=r68	[125,for]=r68	[125,print]=r68	[125,;]=r68	[125,identifier]=r68	[125,char]=r68	
+[126,(]=S52	[126,EXPRESSION]=G166	[126,constant]=S53	[126,FUNCTIONEXPRESSION]=G54	[126,CONSTEXPRESSION]=G55	[126,CONST1]=G56	[126,identifier]=S57	[126,function]=S58	
+[127,;]=r18	
+[128,operation]=G167	[128,*]=S38	[128,/]=S39	[128,CONST2]=G168	[128,^]=S40	[128,;]=r29	[128,+]=S41	[128,%]=S42	[128,<=]=S43	[128,<]=S44	[128,>]=S45	[128,&]=S46	[128,-]=S48	[128,>=]=S49	
+[129,;]=r17	
+[130,%]=r26	[130,&]=r26	[130,>]=r26	[130,>=]=r26	[130,-]=r26	[130,/]=r26	[130,<=]=r26	[130,<]=r26	[130,^]=r26	[130,;]=r26	[130,+]=r26	[130,*]=r26	
+[131,identifier]=S169	
+[132,;]=S170	
+[133,%]=r25	[133,&]=r25	[133,>]=r25	[133,>=]=r25	[133,-]=r25	[133,/]=r25	[133,<=]=r25	[133,<]=r25	[133,^]=r25	[133,;]=r25	[133,+]=r25	[133,*]=r25	
+[134,identifier]=r41	[134,constant]=r41	[134,function]=r41	[134,(]=r41	
+[135,=]=S171	
+[136,function]=S25	[136,constant]=S26	[136,FUNCTIONEXPRESSION]=G29	[136,identifier]=S28	[136,EXPRESSION]=G172	[136,CONST1]=G30	[136,CONSTEXPRESSION]=G31	[136,(]=S32	
+[137,=]=S173	
+[138,=]=S174	
+[139,=]=S175	
+[140,=]=S176	
+[141,=]=S177	
+[142,=]=S178	
+[143,long]=r72	[143,string]=r72	[143,break]=r72	[143,while]=r72	[143,return]=r72	[143,{]=r72	[143,continue]=r72	[143,float]=r72	[143,}]=r72	[143,if]=r72	[143,double]=r72	[143,scanf]=r72	[143,int]=r72	[143,for]=r72	[143,print]=r72	[143,;]=r72	[143,identifier]=r72	[143,char]=r72	
+[144,long]=r55	[144,float]=r55	[144,string]=r55	[144,double]=r55	[144,int]=r55	[144,#]=r55	[144,char]=r55	[144,function]=r55	
+[145,(]=S52	[145,constant]=S53	[145,EXPRESSION]=G179	[145,FUNCTIONEXPRESSION]=G54	[145,CONSTEXPRESSION]=G55	[145,CONST1]=G56	[145,identifier]=S57	[145,function]=S58	
+[146,,]=S18	[146,DECLARE2]=G180	[146,;]=r16	
+[147,(]=S52	[147,constant]=S53	[147,FUNCTIONEXPRESSION]=G54	[147,CONSTEXPRESSION]=G55	[147,CONST1]=G56	[147,EXPRESSION]=G181	[147,identifier]=S57	[147,function]=S58	
+[148,*]=S38	[148,,]=r29	[148,)]=r29	[148,/]=S39	[148,^]=S40	[148,+]=S41	[148,%]=S42	[148,<=]=S43	[148,<]=S44	[148,>]=S45	[148,&]=S46	[148,-]=S48	[148,operation]=G110	[148,>=]=S49	[148,CONST2]=G182	
+[149,CONSTEXPRESSION]=G74	[149,CONST1]=G75	[149,EXPRESS]=G183	[149,)]=r21	[149,identifier]=S76	[149,function]=S77	[149,(]=S78	[149,EXPRESSION]=G79	[149,FUNCTIONEXPRESSION]=G80	[149,constant]=S81	
+[150,%]=r27	[150,&]=r27	[150,>]=r27	[150,>=]=r27	[150,-]=r27	[150,/]=r27	[150,<=]=r27	[150,<]=r27	[150,^]=r27	[150,,]=r27	[150,)]=r27	[150,+]=r27	[150,*]=r27	
+[151,%]=r26	[151,&]=r26	[151,>]=r26	[151,>=]=r26	[151,-]=r26	[151,/]=r26	[151,<=]=r26	[151,<]=r26	[151,^]=r26	[151,EXPRESSION1]=r26	[151,+]=r26	[151,*]=r26	
+[152,EXPRESSION1]=r29	[152,*]=S38	[152,/]=S39	[152,CONST2]=G184	[152,^]=S40	[152,+]=S41	[152,%]=S42	[152,<=]=S43	[152,<]=S44	[152,>]=S45	[152,&]=S46	[152,-]=S48	[152,>=]=S49	[152,operation]=G185	
+[153,EXPRESSION1]=S186	
+[154,identifier]=S187	
+[155,%]=r25	[155,&]=r25	[155,>]=r25	[155,>=]=r25	[155,-]=r25	[155,/]=r25	[155,<=]=r25	[155,<]=r25	[155,^]=r25	[155,EXPRESSION1]=r25	[155,+]=r25	[155,*]=r25	
+[156,(]=S52	[156,constant]=S53	[156,FUNCTIONEXPRESSION]=G54	[156,CONSTEXPRESSION]=G55	[156,CONST1]=G56	[156,identifier]=S57	[156,function]=S58	[156,EXPRESSION]=G188	
+[157,EXPRESSION1]=r18	
+[158,EXPRESSION1]=r17	
+[159,)]=r19	
+[160,long]=r55	[160,string]=r55	[160,break]=r55	[160,while]=r55	[160,return]=r55	[160,{]=r55	[160,continue]=r55	[160,float]=r55	[160,}]=r55	[160,if]=r55	[160,double]=r55	[160,scanf]=r55	[160,int]=r55	[160,for]=r55	[160,print]=r55	[160,;]=r55	[160,identifier]=r55	[160,char]=r55	
+[161,)]=S189	
+[162,DECLARE1]=G190	[162,identifier]=S16	
+[163,(]=S126	[163,FUNCTIONEXPRESSION]=G127	[163,CONST1]=G128	[163,CONSTEXPRESSION]=G129	[163,constant]=S130	[163,function]=S131	[163,EXPRESSION]=G191	[163,identifier]=S133	
+[164,,]=S120	[164,;]=r77	[164,ABOUTEXPRESSION12]=G192	
+[165,)]=S193	
+[166,)]=S194	
+[167,(]=S126	[167,constant]=S130	[167,CONST1]=G195	[167,identifier]=S133	
+[168,;]=r24	
+[169,(]=S196	
+[170,long]=r69	[170,string]=r69	[170,break]=r69	[170,while]=r69	[170,return]=r69	[170,{]=r69	[170,continue]=r69	[170,float]=r69	[170,}]=r69	[170,if]=r69	[170,double]=r69	[170,scanf]=r69	[170,int]=r69	[170,for]=r69	[170,print]=r69	[170,;]=r69	[170,identifier]=r69	[170,char]=r69	
+[171,identifier]=r43	[171,constant]=r43	[171,function]=r43	[171,(]=r43	
+[172,,]=r75	[172,;]=r75	
+[173,identifier]=r48	[173,constant]=r48	[173,function]=r48	[173,(]=r48	
+[174,identifier]=r44	[174,constant]=r44	[174,function]=r44	[174,(]=r44	
+[175,identifier]=r46	[175,constant]=r46	[175,function]=r46	[175,(]=r46	
+[176,identifier]=r42	[176,constant]=r42	[176,function]=r42	[176,(]=r42	
+[177,identifier]=r47	[177,constant]=r47	[177,function]=r47	[177,(]=r47	
+[178,identifier]=r45	[178,constant]=r45	[178,function]=r45	[178,(]=r45	
+[179,)]=S197	
+[180,;]=S198	
+[181,)]=S199	
+[182,,]=r28	[182,)]=r28	
+[183,)]=S200	
+[184,EXPRESSION1]=r24	
+[185,(]=S156	[185,CONST1]=G201	[185,constant]=S151	[185,identifier]=S155	
+[186,)]=r22	
+[187,(]=S202	
+[188,)]=S203	
+[189,;]=S204	
+[190,,]=S18	[190,;]=r16	[190,DECLARE2]=G205	
+[191,;]=S206	
+[192,;]=r76	
+[193,;]=r74	[193,XUNHUAN]=G207	[193,{]=S208	[193,TIAOJIAN]=G209	[193,DECLARE]=G210	[193,scanf]=S211	[193,float]=S6	[193,for]=S212	[193,double]=S7	[193,ABOUTEXPRESSION11]=G93	[193,if]=S213	[193,continue]=S214	[193,int]=S12	[193,break]=S215	[193,ABOUTEXPRESSION]=G216	[193,return]=S217	[193,JUMP]=G218	[193,identifier]=S100	[193,BODY1]=G219	[193,ABOUTEXPRESSION1]=G220	[193,print]=S221	[193,TYPE]=G222	[193,long]=S9	[193,char]=S10	[193,while]=S223	[193,string]=S11	[193,BODY]=G224	
+[194,%]=r27	[194,&]=r27	[194,>]=r27	[194,>=]=r27	[194,-]=r27	[194,/]=r27	[194,<=]=r27	[194,<]=r27	[194,^]=r27	[194,;]=r27	[194,+]=r27	[194,*]=r27	
+[195,operation]=G167	[195,*]=S38	[195,CONST2]=G225	[195,/]=S39	[195,^]=S40	[195,;]=r29	[195,+]=S41	[195,%]=S42	[195,<=]=S43	[195,<]=S44	[195,>]=S45	[195,&]=S46	[195,-]=S48	[195,>=]=S49	
+[196,CONSTEXPRESSION]=G74	[196,CONST1]=G75	[196,EXPRESS]=G226	[196,)]=r21	[196,identifier]=S76	[196,function]=S77	[196,(]=S78	[196,EXPRESSION]=G79	[196,FUNCTIONEXPRESSION]=G80	[196,constant]=S81	
+[197,;]=S227	
+[198,long]=r5	[198,string]=r5	[198,break]=r5	[198,while]=r5	[198,return]=r5	[198,{]=r5	[198,continue]=r5	[198,float]=r5	[198,}]=r5	[198,if]=r5	[198,double]=r5	[198,scanf]=r5	[198,int]=r5	[198,for]=r5	[198,print]=r5	[198,;]=r5	[198,identifier]=r5	[198,char]=r5	
+[199,;]=r74	[199,{]=S87	[199,XUNHUAN]=G88	[199,float]=S6	[199,DECLARE]=G89	[199,scanf]=S90	[199,double]=S7	[199,TIAOJIAN]=G91	[199,for]=S92	[199,ABOUTEXPRESSION11]=G93	[199,BODY1]=G228	[199,if]=S95	[199,int]=S12	[199,continue]=S96	[199,break]=S97	[199,return]=S98	[199,ABOUTEXPRESSION]=G99	[199,identifier]=S100	[199,JUMP]=G101	[199,ABOUTEXPRESSION1]=G102	[199,print]=S104	[199,TYPE]=G105	[199,long]=S9	[199,char]=S10	[199,BODY]=G106	[199,string]=S11	[199,while]=S107	
+[200,,]=r19	[200,)]=r19	
+[201,EXPRESSION1]=r29	[201,*]=S38	[201,/]=S39	[201,^]=S40	[201,+]=S41	[201,%]=S42	[201,<=]=S43	[201,<]=S44	[201,>]=S45	[201,&]=S46	[201,-]=S48	[201,>=]=S49	[201,CONST2]=G229	[201,operation]=G185	
+[202,CONSTEXPRESSION]=G74	[202,CONST1]=G75	[202,EXPRESS]=G230	[202,)]=r21	[202,identifier]=S76	[202,function]=S77	[202,(]=S78	[202,EXPRESSION]=G79	[202,FUNCTIONEXPRESSION]=G80	[202,constant]=S81	
+[203,%]=r27	[203,&]=r27	[203,>]=r27	[203,>=]=r27	[203,-]=r27	[203,/]=r27	[203,<=]=r27	[203,<]=r27	[203,^]=r27	[203,EXPRESSION1]=r27	[203,+]=r27	[203,*]=r27	
+[204,long]=r70	[204,string]=r70	[204,break]=r70	[204,while]=r70	[204,return]=r70	[204,{]=r70	[204,continue]=r70	[204,float]=r70	[204,}]=r70	[204,if]=r70	[204,double]=r70	[204,scanf]=r70	[204,int]=r70	[204,for]=r70	[204,print]=r70	[204,;]=r70	[204,identifier]=r70	[204,char]=r70	
+[205,;]=S231	
+[206,(]=S52	[206,constant]=S53	[206,FUNCTIONEXPRESSION]=G54	[206,CONSTEXPRESSION]=G55	[206,CONST1]=G56	[206,identifier]=S57	[206,EXPRESSION]=G232	[206,function]=S58	
+[207,else]=r60	
+[208,;]=r74	[208,{]=S87	[208,XUNHUAN]=G88	[208,}]=r57	[208,MAINBODY]=G233	[208,float]=S6	[208,DECLARE]=G89	[208,scanf]=S90	[208,double]=S7	[208,TIAOJIAN]=G91	[208,for]=S92	[208,ABOUTEXPRESSION11]=G93	[208,BODY1]=G94	[208,if]=S95	[208,int]=S12	[208,continue]=S96	[208,break]=S97	[208,return]=S98	[208,ABOUTEXPRESSION]=G99	[208,identifier]=S100	[208,JUMP]=G101	[208,ABOUTEXPRESSION1]=G102	[208,print]=S104	[208,TYPE]=G105	[208,long]=S9	[208,char]=S10	[208,BODY]=G106	[208,string]=S11	[208,while]=S107	
+[209,else]=r61	
+[210,else]=r58	
+[211,(]=S234	
+[212,(]=S235	
+[213,(]=S236	
+[214,;]=S237	
+[215,;]=S238	
+[216,else]=r63	
+[217,(]=S126	[217,FUNCTIONEXPRESSION]=G127	[217,CONST1]=G128	[217,CONSTEXPRESSION]=G129	[217,constant]=S130	[217,function]=S131	[217,EXPRESSION]=G239	[217,identifier]=S133	
+[218,else]=r62	
+[219,else]=S240	
+[220,;]=S241	
+[221,(]=S242	
+[222,identifier]=S16	[222,DECLARE1]=G243	
+[223,(]=S244	
+[224,else]=r59	
+[225,;]=r28	
+[226,)]=S245	
+[227,long]=r71	[227,string]=r71	[227,break]=r71	[227,while]=r71	[227,return]=r71	[227,{]=r71	[227,continue]=r71	[227,float]=r71	[227,}]=r71	[227,if]=r71	[227,double]=r71	[227,scanf]=r71	[227,int]=r71	[227,for]=r71	[227,print]=r71	[227,;]=r71	[227,identifier]=r71	[227,char]=r71	
+[228,long]=r64	[228,string]=r64	[228,break]=r64	[228,while]=r64	[228,return]=r64	[228,{]=r64	[228,continue]=r64	[228,float]=r64	[228,}]=r64	[228,if]=r64	[228,double]=r64	[228,scanf]=r64	[228,int]=r64	[228,for]=r64	[228,print]=r64	[228,;]=r64	[228,identifier]=r64	[228,char]=r64	
+[229,EXPRESSION1]=r28	
+[230,)]=S246	
+[231,(]=r5	[231,identifier]=r5	[231,constant]=r5	[231,function]=r5	
+[232,)]=S247	
+[233,}]=S248	
+[234,identifier]=S249	
+[235,TYPE]=G162	[235,float]=S6	[235,double]=S7	[235,DECLARE]=G250	[235,long]=S9	[235,char]=S10	[235,string]=S11	[235,int]=S12	
+[236,(]=S52	[236,constant]=S53	[236,FUNCTIONEXPRESSION]=G54	[236,CONSTEXPRESSION]=G55	[236,EXPRESSION]=G251	[236,CONST1]=G56	[236,identifier]=S57	[236,function]=S58	
+[237,else]=r67	
+[238,else]=r68	
+[239,;]=S252	
+[240,;]=r74	[240,{]=S87	[240,XUNHUAN]=G88	[240,float]=S6	[240,DECLARE]=G89	[240,scanf]=S90	[240,double]=S7	[240,TIAOJIAN]=G91	[240,for]=S92	[240,ABOUTEXPRESSION11]=G93	[240,if]=S95	[240,int]=S12	[240,continue]=S96	[240,break]=S97	[240,return]=S98	[240,ABOUTEXPRESSION]=G99	[240,identifier]=S100	[240,JUMP]=G101	[240,ABOUTEXPRESSION1]=G102	[240,BODY1]=G253	[240,print]=S104	[240,TYPE]=G105	[240,long]=S9	[240,char]=S10	[240,BODY]=G106	[240,string]=S11	[240,while]=S107	
+[241,else]=r72	
+[242,(]=S52	[242,EXPRESSION]=G254	[242,constant]=S53	[242,FUNCTIONEXPRESSION]=G54	[242,CONSTEXPRESSION]=G55	[242,CONST1]=G56	[242,identifier]=S57	[242,function]=S58	
+[243,,]=S18	[243,DECLARE2]=G255	[243,;]=r16	
+[244,(]=S52	[244,constant]=S53	[244,FUNCTIONEXPRESSION]=G54	[244,CONSTEXPRESSION]=G55	[244,CONST1]=G56	[244,EXPRESSION]=G256	[244,identifier]=S57	[244,function]=S58	
+[245,;]=r19	
+[246,EXPRESSION1]=r19	
+[247,{]=S257	
+[248,else]=r55	
+[249,)]=S258	
+[250,(]=S126	[250,FUNCTIONEXPRESSION]=G127	[250,CONST1]=G128	[250,CONSTEXPRESSION]=G129	[250,constant]=S130	[250,function]=S131	[250,EXPRESSION]=G259	[250,identifier]=S133	
+[251,)]=S260	
+[252,else]=r69	
+[253,long]=r66	[253,string]=r66	[253,break]=r66	[253,while]=r66	[253,return]=r66	[253,{]=r66	[253,continue]=r66	[253,float]=r66	[253,}]=r66	[253,if]=r66	[253,double]=r66	[253,scanf]=r66	[253,int]=r66	[253,for]=r66	[253,print]=r66	[253,;]=r66	[253,identifier]=r66	[253,char]=r66	
+[254,)]=S261	
+[255,;]=S262	
+[256,)]=S263	
+[257,BODY]=G264	[257,;]=r74	[257,XUNHUAN]=G265	[257,float]=S6	[257,{]=S266	[257,TIAOJIAN]=G267	[257,double]=S7	[257,DECLARE]=G268	[257,scanf]=S269	[257,for]=S270	[257,ABOUTEXPRESSION11]=G93	[257,int]=S12	[257,if]=S271	[257,continue]=S272	[257,return]=S273	[257,break]=S274	[257,identifier]=S100	[257,ABOUTEXPRESSION]=G275	[257,JUMP]=G276	[257,ABOUTEXPRESSION1]=G277	[257,print]=S278	[257,BODY1]=G279	[257,TYPE]=G280	[257,long]=S9	[257,char]=S10	[257,string]=S11	[257,while]=S281	
+[258,;]=S282	
+[259,;]=S283	
+[260,;]=r74	[260,XUNHUAN]=G207	[260,{]=S208	[260,TIAOJIAN]=G209	[260,DECLARE]=G210	[260,scanf]=S211	[260,float]=S6	[260,for]=S212	[260,double]=S7	[260,ABOUTEXPRESSION11]=G93	[260,if]=S213	[260,continue]=S214	[260,int]=S12	[260,break]=S215	[260,ABOUTEXPRESSION]=G216	[260,return]=S217	[260,BODY1]=G284	[260,JUMP]=G218	[260,identifier]=S100	[260,ABOUTEXPRESSION1]=G220	[260,print]=S221	[260,TYPE]=G222	[260,long]=S9	[260,char]=S10	[260,while]=S223	[260,string]=S11	[260,BODY]=G224	
+[261,;]=S285	
+[262,else]=r5	
+[263,;]=r74	[263,XUNHUAN]=G207	[263,{]=S208	[263,TIAOJIAN]=G209	[263,DECLARE]=G210	[263,scanf]=S211	[263,float]=S6	[263,for]=S212	[263,double]=S7	[263,ABOUTEXPRESSION11]=G93	[263,BODY1]=G286	[263,if]=S213	[263,continue]=S214	[263,int]=S12	[263,break]=S215	[263,ABOUTEXPRESSION]=G216	[263,return]=S217	[263,JUMP]=G218	[263,identifier]=S100	[263,ABOUTEXPRESSION1]=G220	[263,print]=S221	[263,TYPE]=G222	[263,long]=S9	[263,char]=S10	[263,while]=S223	[263,string]=S11	[263,BODY]=G224	
+[264,}]=r59	
+[265,}]=r60	
+[266,;]=r74	[266,{]=S87	[266,XUNHUAN]=G88	[266,MAINBODY]=G287	[266,}]=r57	[266,float]=S6	[266,DECLARE]=G89	[266,scanf]=S90	[266,double]=S7	[266,TIAOJIAN]=G91	[266,for]=S92	[266,ABOUTEXPRESSION11]=G93	[266,BODY1]=G94	[266,if]=S95	[266,int]=S12	[266,continue]=S96	[266,break]=S97	[266,return]=S98	[266,ABOUTEXPRESSION]=G99	[266,identifier]=S100	[266,JUMP]=G101	[266,ABOUTEXPRESSION1]=G102	[266,print]=S104	[266,TYPE]=G105	[266,long]=S9	[266,char]=S10	[266,BODY]=G106	[266,string]=S11	[266,while]=S107	
+[267,}]=r61	
+[268,}]=r58	
+[269,(]=S288	
+[270,(]=S289	
+[271,(]=S290	
+[272,;]=S291	
+[273,(]=S126	[273,FUNCTIONEXPRESSION]=G127	[273,CONST1]=G128	[273,CONSTEXPRESSION]=G129	[273,constant]=S130	[273,function]=S131	[273,identifier]=S133	[273,EXPRESSION]=G292	
+[274,;]=S293	
+[275,}]=r63	
+[276,}]=r62	
+[277,;]=S294	
+[278,(]=S295	
+[279,}]=S296	
+[280,identifier]=S16	[280,DECLARE1]=G297	
+[281,(]=S298	
+[282,else]=r70	
+[283,(]=S52	[283,constant]=S53	[283,FUNCTIONEXPRESSION]=G54	[283,CONSTEXPRESSION]=G55	[283,CONST1]=G56	[283,identifier]=S57	[283,function]=S58	[283,EXPRESSION]=G299	
+[284,else]=S300	
+[285,else]=r71	
+[286,else]=r64	
+[287,}]=S301	
+[288,identifier]=S302	
+[289,TYPE]=G162	[289,float]=S6	[289,double]=S7	[289,long]=S9	[289,char]=S10	[289,string]=S11	[289,int]=S12	[289,DECLARE]=G303	
+[290,(]=S52	[290,constant]=S53	[290,FUNCTIONEXPRESSION]=G54	[290,CONSTEXPRESSION]=G55	[290,CONST1]=G56	[290,EXPRESSION]=G304	[290,identifier]=S57	[290,function]=S58	
+[291,}]=r67	
+[292,;]=S305	
+[293,}]=r68	
+[294,}]=r72	
+[295,(]=S52	[295,constant]=S53	[295,FUNCTIONEXPRESSION]=G54	[295,EXPRESSION]=G306	[295,CONSTEXPRESSION]=G55	[295,CONST1]=G56	[295,identifier]=S57	[295,function]=S58	
+[296,long]=r65	[296,string]=r65	[296,break]=r65	[296,while]=r65	[296,return]=r65	[296,{]=r65	[296,continue]=r65	[296,float]=r65	[296,}]=r65	[296,if]=r65	[296,double]=r65	[296,scanf]=r65	[296,int]=r65	[296,for]=r65	[296,print]=r65	[296,;]=r65	[296,identifier]=r65	[296,char]=r65	
+[297,,]=S18	[297,;]=r16	[297,DECLARE2]=G307	
+[298,(]=S52	[298,constant]=S53	[298,FUNCTIONEXPRESSION]=G54	[298,CONSTEXPRESSION]=G55	[298,CONST1]=G56	[298,identifier]=S57	[298,EXPRESSION]=G308	[298,function]=S58	
+[299,)]=S309	
+[300,;]=r74	[300,XUNHUAN]=G207	[300,{]=S208	[300,TIAOJIAN]=G209	[300,DECLARE]=G210	[300,scanf]=S211	[300,float]=S6	[300,for]=S212	[300,double]=S7	[300,ABOUTEXPRESSION11]=G93	[300,if]=S213	[300,continue]=S214	[300,int]=S12	[300,break]=S215	[300,ABOUTEXPRESSION]=G216	[300,return]=S217	[300,JUMP]=G218	[300,identifier]=S100	[300,ABOUTEXPRESSION1]=G220	[300,print]=S221	[300,TYPE]=G222	[300,long]=S9	[300,char]=S10	[300,while]=S223	[300,string]=S11	[300,BODY]=G224	[300,BODY1]=G310	
+[301,}]=r55	
+[302,)]=S311	
+[303,(]=S126	[303,FUNCTIONEXPRESSION]=G127	[303,CONST1]=G128	[303,CONSTEXPRESSION]=G129	[303,constant]=S130	[303,function]=S131	[303,identifier]=S133	[303,EXPRESSION]=G312	
+[304,)]=S313	
+[305,}]=r69	
+[306,)]=S314	
+[307,;]=S315	
+[308,)]=S316	
+[309,{]=S317	
+[310,else]=r66	
+[311,;]=S318	
+[312,;]=S319	
+[313,;]=r74	[313,XUNHUAN]=G207	[313,{]=S208	[313,TIAOJIAN]=G209	[313,DECLARE]=G210	[313,scanf]=S211	[313,float]=S6	[313,for]=S212	[313,double]=S7	[313,ABOUTEXPRESSION11]=G93	[313,if]=S213	[313,continue]=S214	[313,int]=S12	[313,break]=S215	[313,ABOUTEXPRESSION]=G216	[313,return]=S217	[313,JUMP]=G218	[313,identifier]=S100	[313,BODY1]=G320	[313,ABOUTEXPRESSION1]=G220	[313,print]=S221	[313,TYPE]=G222	[313,long]=S9	[313,char]=S10	[313,while]=S223	[313,string]=S11	[313,BODY]=G224	
+[314,;]=S321	
+[315,}]=r5	
+[316,BODY]=G264	[316,;]=r74	[316,XUNHUAN]=G265	[316,float]=S6	[316,{]=S266	[316,TIAOJIAN]=G267	[316,double]=S7	[316,DECLARE]=G268	[316,scanf]=S269	[316,for]=S270	[316,ABOUTEXPRESSION11]=G93	[316,BODY1]=G322	[316,int]=S12	[316,if]=S271	[316,continue]=S272	[316,return]=S273	[316,break]=S274	[316,identifier]=S100	[316,ABOUTEXPRESSION]=G275	[316,JUMP]=G276	[316,ABOUTEXPRESSION1]=G277	[316,print]=S278	[316,TYPE]=G280	[316,long]=S9	[316,char]=S10	[316,string]=S11	[316,while]=S281	
+[317,BODY]=G264	[317,;]=r74	[317,XUNHUAN]=G265	[317,float]=S6	[317,{]=S266	[317,TIAOJIAN]=G267	[317,double]=S7	[317,DECLARE]=G268	[317,scanf]=S269	[317,for]=S270	[317,ABOUTEXPRESSION11]=G93	[317,int]=S12	[317,if]=S271	[317,continue]=S272	[317,return]=S273	[317,break]=S274	[317,BODY1]=G323	[317,identifier]=S100	[317,ABOUTEXPRESSION]=G275	[317,JUMP]=G276	[317,ABOUTEXPRESSION1]=G277	[317,print]=S278	[317,TYPE]=G280	[317,long]=S9	[317,char]=S10	[317,string]=S11	[317,while]=S281	
+[318,}]=r70	
+[319,EXPRESSION]=G324	[319,(]=S52	[319,constant]=S53	[319,FUNCTIONEXPRESSION]=G54	[319,CONSTEXPRESSION]=G55	[319,CONST1]=G56	[319,identifier]=S57	[319,function]=S58	
+[320,else]=S325	
+[321,}]=r71	
+[322,}]=r64	
+[323,}]=S326	
+[324,)]=S327	
+[325,BODY]=G264	[325,;]=r74	[325,XUNHUAN]=G265	[325,float]=S6	[325,{]=S266	[325,TIAOJIAN]=G267	[325,double]=S7	[325,DECLARE]=G268	[325,scanf]=S269	[325,for]=S270	[325,ABOUTEXPRESSION11]=G93	[325,int]=S12	[325,if]=S271	[325,continue]=S272	[325,return]=S273	[325,break]=S274	[325,while]=S281	[325,identifier]=S100	[325,ABOUTEXPRESSION]=G275	[325,JUMP]=G276	[325,ABOUTEXPRESSION1]=G277	[325,print]=S278	[325,TYPE]=G280	[325,long]=S9	[325,char]=S10	[325,string]=S11	[325,BODY1]=G328	
+[326,else]=r65	
+[327,{]=S329	
+[328,}]=r66	
+[329,BODY]=G264	[329,;]=r74	[329,XUNHUAN]=G265	[329,float]=S6	[329,{]=S266	[329,TIAOJIAN]=G267	[329,double]=S7	[329,DECLARE]=G268	[329,scanf]=S269	[329,for]=S270	[329,ABOUTEXPRESSION11]=G93	[329,int]=S12	[329,if]=S271	[329,continue]=S272	[329,return]=S273	[329,break]=S274	[329,identifier]=S100	[329,ABOUTEXPRESSION]=G275	[329,JUMP]=G276	[329,ABOUTEXPRESSION1]=G277	[329,print]=S278	[329,TYPE]=G280	[329,long]=S9	[329,char]=S10	[329,BODY1]=G330	[329,string]=S11	[329,while]=S281	
+[330,}]=S331	
+[331,}]=r65	
