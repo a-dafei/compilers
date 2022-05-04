@@ -19,3 +19,5 @@ LexAnalysis.exe
 SynAnalysis.exe
 
 
+语法分析的2型文法可能存在一些问题。大家可以自己修改或者与我讨论。
+此工程参考csdn：  https://blog.csdn.net/qq_42840665/article/details/114016131
